@@ -25,6 +25,6 @@ public class Shipper {
 
     @Override
     public String toString() {
-        return String.format("| %-5d | %-30s | %-20s |%n", id, name, phone);
+        return String.format("| %-5d | %-30s | %-30s |%n", id, name, phone);
     }
 }

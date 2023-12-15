@@ -1,4 +1,4 @@
-package com.pluralsight.model;
+package com.pluralsight.application.model;
 
 public class Shipper {
     private int id;
@@ -15,28 +15,16 @@ public class Shipper {
         return id;
     }
 
-    public void setId(int id) {
-        this.id = id;
-    }
-
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public String getPhone() {
         return phone;
     }
 
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
     @Override
-    public String shipperString() {
+    public String toString() {
         return String.format("| %-5d | %-30s | %-20s |%n", id, name, phone);
     }
 }

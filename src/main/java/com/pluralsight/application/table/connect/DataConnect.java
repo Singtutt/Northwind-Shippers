@@ -1,4 +1,4 @@
-package com.pluralsight.data;
+package com.pluralsight.application.table.connect;
 
 import org.apache.commons.dbcp2.BasicDataSource;
 
